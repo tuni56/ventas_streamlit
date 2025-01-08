@@ -64,5 +64,5 @@ segment_filtered_df = category_filtered_df[category_filtered_df['Segment'] == se
 
 # KPI de ventas por segmento
 total_sales_segment = segment_filtered_df['Sales'].sum()
-st.subheader(f'KPI de Ventas para el Segmento: {segment}')
+st.subheader(f'Ventas para el Segmento: {segment}')
 st.write(f"Ventas Totales en este Segmento: ${total_sales_segment:,.2f}")
