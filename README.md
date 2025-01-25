@@ -46,9 +46,8 @@ Interfaz de usuario:
 
 Usa el sidebar para filtrar los datos por rango de fechas, categoría de producto y segmento de cliente.
 Explora las métricas clave y visualizaciones en la sección principal de la aplicación.
+
 Estructura del Proyecto 📂
-
-
 ├── Orders.csv                 # Archivo de datos (debes proporcionarlo).
 ├── dashboard.py               # Script principal de la aplicación.
 ├── README.md                  # Documentación del proyecto.
