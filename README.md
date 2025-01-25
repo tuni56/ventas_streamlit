@@ -30,39 +30,34 @@ Antes de ejecutar la aplicación, asegúrate de tener instaladas las siguientes 
 
 Puedes instalarlos utilizando el siguiente comando:
 
-```bash
+
 pip install streamlit pandas
 Uso 🛠️
 Clona este repositorio:
 
-bash
-Copiar
-Editar
 git clone <URL_DEL_REPOSITORIO>
 cd <NOMBRE_DEL_REPOSITORIO>
 Asegúrate de tener el archivo de datos Orders.csv en el mismo directorio que el script principal.
 
 Ejecuta la aplicación:
 
-bash
-Copiar
-Editar
 streamlit run <NOMBRE_DEL_SCRIPT>.py
 Interfaz de usuario:
 
 Usa el sidebar para filtrar los datos por rango de fechas, categoría de producto y segmento de cliente.
 Explora las métricas clave y visualizaciones en la sección principal de la aplicación.
 Estructura del Proyecto 📂
-bash
-Copiar
-Editar
+
+
 ├── Orders.csv                 # Archivo de datos (debes proporcionarlo).
 ├── dashboard.py               # Script principal de la aplicación.
 ├── README.md                  # Documentación del proyecto.
+
 Visualizaciones Incluidas 📈
 Ventas por Ciudad: Gráfico de barras con las ciudades con mayores ventas.
 Ventas por Estado: Gráfico de barras mostrando las ventas agrupadas por estado.
 Productos Más Vendidos: Lista con los 10 productos más vendidos por cantidad.
+
 Ejemplo de Uso 📋
 Supongamos que tienes un archivo Orders.csv con datos de ventas, incluyendo las columnas:
 
@@ -75,6 +70,7 @@ Profit: Beneficio generado.
 City: Ciudad.
 State: Estado.
 Product Name: Nombre del producto.
+
 La aplicación procesará y visualizará estos datos de manera interactiva según tus filtros.
 
 Contribuciones 🤝
@@ -82,21 +78,16 @@ Contribuciones 🤝
 
 Haz un fork de este repositorio.
 Crea una rama para tu nueva funcionalidad:
-bash
-Copiar
-Editar
+
 git checkout -b feature/nueva-funcionalidad
 Realiza tus cambios y haz un commit:
-bash
-Copiar
-Editar
+
 git commit -m "Añadir nueva funcionalidad"
 Envía tus cambios:
-bash
-Copiar
-Editar
+
 git push origin feature/nueva-funcionalidad
 Abre un Pull Request.
+
 Licencia 📄
 Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para más información.
 
