@@ -29,12 +29,10 @@ Antes de ejecutar la aplicación, asegúrate de tener instaladas las siguientes 
   - `pandas`
 
 Puedes instalarlos utilizando el siguiente comando:
-
-
 pip install streamlit pandas
-Uso 🛠️
-Clona este repositorio:
 
+## Uso 🛠️
+Clona este repositorio:
 git clone <URL_DEL_REPOSITORIO>
 cd <NOMBRE_DEL_REPOSITORIO>
 Asegúrate de tener el archivo de datos Orders.csv en el mismo directorio que el script principal.
@@ -47,17 +45,25 @@ Interfaz de usuario:
 Usa el sidebar para filtrar los datos por rango de fechas, categoría de producto y segmento de cliente.
 Explora las métricas clave y visualizaciones en la sección principal de la aplicación.
 
-Estructura del Proyecto 📂
-├── Orders.csv                 # Archivo de datos (debes proporcionarlo).
-├── dashboard.py               # Script principal de la aplicación.
-├── README.md                  # Documentación del proyecto.
+## Estructura del Proyecto 📂
 
-Visualizaciones Incluidas 📈
+El proyecto está organizado de la siguiente manera:
+
+- **`Orders.csv`**  
+  Archivo de datos que contiene las órdenes de ventas, incluyendo información como fecha, categoría, segmento, ventas, cantidad, beneficio, ciudad, estado, y nombre del producto. *(Debe ser proporcionado antes de ejecutar el script).*
+
+- **`dashboard.py`**  
+  Script principal que contiene el código para la aplicación interactiva de Streamlit.  
+
+- **`README.md`**  
+  Documentación completa del proyecto con instrucciones de instalación, uso, y contribuciones.
+  
+## Visualizaciones Incluidas 📈
 Ventas por Ciudad: Gráfico de barras con las ciudades con mayores ventas.
 Ventas por Estado: Gráfico de barras mostrando las ventas agrupadas por estado.
 Productos Más Vendidos: Lista con los 10 productos más vendidos por cantidad.
 
-Ejemplo de Uso 📋
+## Ejemplo de Uso 📋
 Supongamos que tienes un archivo Orders.csv con datos de ventas, incluyendo las columnas:
 
 Order Date: Fecha de la orden.
@@ -72,7 +78,7 @@ Product Name: Nombre del producto.
 
 La aplicación procesará y visualizará estos datos de manera interactiva según tus filtros.
 
-Contribuciones 🤝
+## Contribuciones 🤝
 ¡Las contribuciones son bienvenidas! Si deseas mejorar esta aplicación, sigue estos pasos:
 
 Haz un fork de este repositorio.
@@ -87,7 +93,7 @@ Envía tus cambios:
 git push origin feature/nueva-funcionalidad
 Abre un Pull Request.
 
-Licencia 📄
+## Licencia 📄
 Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para más información.
 
 Desarrollado con ❤️ usando Streamlit.
